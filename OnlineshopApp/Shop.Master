@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Shop.master.cs" Inherits="OnlineshopApp.Shop" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <asp:Label ID="Label2" runat="server" Text="Online Book shop" BorderStyle="Solid" Font-Names="Blackadder ITC" Font-Size="XX-Large"></asp:Label>
+
+
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <asp:Label ID="Label1" runat="server" Text="@Copyrights Reserved" SkinID="smallLabel"></asp:Label>
+        </div>
+    </form>
+</body>
+</html>
